@@ -1,0 +1,38 @@
+footer {
+    background-color: #343a40; 
+    padding: 20px 0;
+    color: #ffffff; 
+}
+
+.social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: #007bff; 
+}
+
+.homelogo {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .social-links {
+        margin-top: 20px;
+
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        font-size: 14px; 
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .btn {
+        font-size: 18px; 
+    }
+}
+
+
