@@ -73,9 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Handle Confirm Delete button click
   confirmDeleteBtn.addEventListener("click", function () {
     var blockIdToDelete = confirmDeleteBtn.getAttribute("data-block-id");
-
     var currentContent = dataBlock.textContent;
-
     var jsonData = JSON.parse(currentContent);
 
     delete jsonData[blockIdToDelete];
