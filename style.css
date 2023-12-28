@@ -21,7 +21,8 @@ footer {
 @media (max-width: 767px) {
     .social-links {
         margin-top: 20px;
-
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .btn {
@@ -34,5 +35,3 @@ footer {
         font-size: 18px; 
     }
 }
-
-
